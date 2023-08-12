@@ -1,0 +1,22 @@
+---
+title: "繪製圖表器介紹"
+author: "董宸賓"
+date: "2023-08-08"
+output: html_document
+---
+
+## 如何使用這個程式{style="color:#004AAD;"}
+
+### 第一步：上傳你的csv檔，並檢查你的檔案
+
+### 第二步：選擇你的圖表樣式
+
+### 第三步：調整你要輸出的表格大小
+
+### 第四步：下載你的圖表
+
+## 這個程式的code {style="color:green;"}
+
+<https://bookdown.org/yihui/rmarkdown/compile.html>
+
+[your text here]{style="color:green;"}
