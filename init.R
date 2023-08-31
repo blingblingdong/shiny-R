@@ -2,7 +2,7 @@
 #
 # Example R code to install packages if not already installed
 #
-pak::pkg_system_requirements("tidyverse")
+install.packages('tidyverse')
 my_packages = c('ggforce', 'shinyjs', 'ggdark', 'ggthemes', 'shinydashboard', 'DT', 'markdown','shinythemes')
 
 install_if_missing = function(p) {
