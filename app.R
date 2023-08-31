@@ -1,5 +1,5 @@
 library(shiny)
-library(tidyverse)
+library(ggplot2)
 library(shinythemes)
 library(shinyjs)
 library(ggdark)
