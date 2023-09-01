@@ -8,6 +8,7 @@ library(ggdark)
 library(ggthemes)
 library(shinydashboard)
 library(DT)
+library(showtext)
 
 a = "#004AAD"
 b = "#C0C1C5"
@@ -20,7 +21,6 @@ ui <- dashboardPage(
   dashboardSidebar(
     width=300,
     sidebarMenu(
-      menuItem("介紹",tabName="介紹1"),
       menuItem("輸入你的數據", tabName = "inputData", icon = icon("database")),
       menuItem("繪製你的圖表", tabName = "drawChart", icon = icon("chart-line")),
       menuItem("下載你的圖表", tabName = "downloadChart", icon = icon("download"))
@@ -28,8 +28,6 @@ ui <- dashboardPage(
   ),
   dashboardBody(
     tabItems(
-      tabItem(tabName = "介紹1",
-              div(includeMarkdown("uuu.Rmd"))),
       tabItem(tabName = "inputData",
               box(
                 title="上傳csv檔案",width =4,
