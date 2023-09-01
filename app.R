@@ -120,7 +120,7 @@ server <- function(input, output, session) {
     x_data <- data()[[input$x]]
     x_levels <- unique(x_data)
     x_factor <- factor(x_data, levels = x_levels)
-
+    showtext_auto()
     ggplot(data(), aes(x = x_factor, y = .data[[input$y]])) +
       plot_geom() +
       labs(title = input$title, x = " ", y = " ") +
